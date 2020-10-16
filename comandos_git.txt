@@ -25,5 +25,7 @@ git remote add origin "url_del_repositorio_en_github" | por ejemplo https://gith
 git push -u origin master | para subir al repositorio
 git pull origin master | para bajar del repositorio remoto
 
+git clone https://github.com/santorofd/Responsive.git
+
 
 archivo .gitignore dentro se colocan todos los archivos y/o extensiones que no requieren seguimiento de versiones
