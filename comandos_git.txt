@@ -1,0 +1,27 @@
+git config -global user.name "nombre del usuario"
+git config -global user.email "email del usuario"
+
+git config user.name | ver usuario configurado
+git config user.email | ver email configurado
+
+git init | inicializar el repositorio
+git status | verificar estado del repositorio
+git add archivo | agregar un archivo para ser trackeado
+git commit -m "cadena de texto explicativa" | commit de los archivos modificados
+git add . | agregar todos los archivos del repositorio para ser trackeados
+git log | lista todos los commmits realizados
+git log --stat | estadisticas de las inserciones
+git log --oneline | estadisticas simplificadas
+git log --graph
+git diff | cuales son las diferencias entre el archivo comiteado y el actual sin commit
+
+git checkout "identificador_del_commit" | regresar a un commit determinado
+git branch | nos permite conocer las ramas de nuestro repositorio git
+git checkout -b "nombre_de_la_rama" | crea un nuevo branch
+git branch -d "nombre de la rama" | para borrar un branch
+git merge "nombre de la rama" | hace un merge de la rama en que nos encontramos con la que se indica entre comillas
+
+git remote add origin "url_del_repositorio_en_github" | por ejemplo https://github.com/santorofd/aprendiendoGit.git
+
+
+archivo .gitignore dentro se colocan todos los archivos y/o extensiones que no requieren seguimiento de versiones
