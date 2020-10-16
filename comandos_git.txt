@@ -22,6 +22,8 @@ git branch -d "nombre de la rama" | para borrar un branch
 git merge "nombre de la rama" | hace un merge de la rama en que nos encontramos con la que se indica entre comillas
 
 git remote add origin "url_del_repositorio_en_github" | por ejemplo https://github.com/santorofd/aprendiendoGit.git
+git push -u origin master | para subir al repositorio
+git pull origin master | para bajar del repositorio remoto
 
 
 archivo .gitignore dentro se colocan todos los archivos y/o extensiones que no requieren seguimiento de versiones
